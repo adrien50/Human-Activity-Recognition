@@ -16,4 +16,15 @@ Compared to a classical approach, using a Recurrent Neural Networks (RNN) with L
 
 # What is an RNN?
 
-According to [kdnuggets](https://www.kdnuggets.com/2020/07/pytorch-lstm-text-generation-tutorial.html)RNNs are neural networks that are good with sequential data. It can be video, audio, text, stock market time series or even a single image cut into a sequence of its parts. Standard neural networks (convolutional or vanilla) have one major shortcoming when compared to RNNs - they cannot reason about previous inputs to inform later ones. You cannot solve some machine learning problems without some kind of memory of past inputs. For example, you might run into a problem when you have some video frames of a ball moving and want to predict the direction of the ball. The way a standard neural network sees the problem is: you have a ball in one image and then you have a ball in another image. It does not have a mechanism for connecting these two images as a sequence. Standard neural networks cannot connect two separate images of the ball to the concept of “the ball is moving.” All it sees is that there is a ball in the image #1 and that there's a ball in the image #2, but network outputs are separate.
+According to [kdnuggets](https://www.kdnuggets.com/2020/07/pytorch-lstm-text-generation-tutorial.html)RNNs are neural networks that are good with sequential data. It can be video, audio, text, stock market time series or even a single image cut into a sequence of its parts. Standard neural networks (convolutional or vanilla) have one major shortcoming when compared to RNNs - they cannot reason about previous inputs to inform later ones. You cannot solve some machine learning problems without some kind of memory of past inputs. For example, you might run into a problem when you have some video frames of a ball moving and want to predict the direction of the ball. The way a standard neural network sees the problem is: you have a ball in one image and then you have a ball in another image. It does not have a mechanism for connecting these two images as a sequence. Standard neural networks cannot connect two separate images of the ball to the concept of “the ball is moving.” All it sees is that there is a ball in the image #1 and that there's a ball in the image #2, but network outputs are separate.For more understanding of RNN,read [here](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+
+# What is LSTM ?
+
+LSTM is a variant of RNN used in deep learning. You can use LSTMs if you are working on sequences of data. Here are the most straightforward use-cases for LSTM networks you might be familiar with:
+* Time series forecasting (for example, stock prediction)
+* Text generation
+* Video classification
+* Music generation
+* Anomaly detection
+
+
