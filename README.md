@@ -28,7 +28,7 @@ LSTM is a variant of RNN used in deep learning. You can use LSTMs if you are wor
 * Anomaly detection
 For more understanding of LSTM, you can read [here](http://colah.github.io/posts/2015-08-Understanding-LSTMs) 
 
-# Project Statement
+# Problem Statement
 
 The project aims to detect whether the person is running or 
 walking based on deep neural network and sensor data collected 
