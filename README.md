@@ -6,9 +6,9 @@ According to [machinelearningmastery](https://machinelearningmastery.com/deep-le
 
 Human Activity Recognition (HAR) using smartphones dataset and an LSTM RNN. Classifying the type of movement amongst six categories:
 * WALKING,
-WALKING_UPSTAIRS,
-WALKING_DOWNSTAIRS,
-SITTING,
-STANDING,
-LAYING.
+* WALKING_UPSTAIRS,
+* WALKING_DOWNSTAIRS,
+* SITTING,
+* STANDING,
+* LAYING.
 Compared to a classical approach, using a Recurrent Neural Networks (RNN) with Long Short-Term Memory cells (LSTMs) require no or almost no feature engineering. Data can be fed directly into the neural network who acts like a black box, modeling the problem correctly. 
