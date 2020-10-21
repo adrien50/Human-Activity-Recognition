@@ -26,5 +26,4 @@ LSTM is a variant of RNN used in deep learning. You can use LSTMs if you are wor
 * Video classification
 * Music generation
 * Anomaly detection
-
-
+For more understanding ofLSTM, you can read [here](http://colah.github.io/posts/2015-08-Understanding-LSTMs) 
